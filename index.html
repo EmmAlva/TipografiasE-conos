@@ -4,58 +4,89 @@
 	<meta charset="UTF-8">
 	<title>Lección24-Medium</title>
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="fonts/style.css">
+	<link rel="stylesheet" href="fonts/change/style.css">
+	<link rel="stylesheet" href="fonts/original/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Kurale|Lato:300,300i,400,400i,700|Montserrat:300,300i,400,400i,500|Raleway:300,300i,400,400i,500" rel="stylesheet">
+  	<link rel="shortcut icon" href="http://laboratoria.la/app/assets/img/favicon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="http://laboratoria.la/app/assets/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="http://laboratoria.la/app/assets/img/favicon-96x96.png">
 </head>
 <body>
-	<header>
-
-		<span></span>
-		<span>|</span>
-		<div class="left">
-		<img src="https://st.hzcdn.com/fimgs/aa21db6a08dcd5e4_9419-w500-h400-b0-p0--transitional-landscape.jpg" alt="">
-		<span class="icon-twitter"></span>
-		<span class="icon-facebook"></span>
-
+	<header id="menu">
+		<div class="header-left">
+			<li>
+				<span class="icon-mediumColor">
+	                <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span>
+	        	</span>
+			</li>
+			<li><span style="font-size: 30px;">|</span></li>
+			<li><img src="img/art_nouveau_girl.jpg" alt="tec" class="imagen1"></li>
+			<li>
+				<div class="social">
+					<span class="icon-twitter icon"></span>
+					<span class="icon-facebook icon"></span>
+				</div>
+			</li>	
+			</div>
+		<div class="header-rigth">
+			<li>
+				<div class="edit-sear">
+					<span class="edit">Edit</span>
+					<span class="icon-Search icon"></span>
+				</div>
+			</li>
+			<li>
+				<div class="circle">
+					<span >5</span>
+				</div>	
+			</li>
+			<li>
+				<img src="img/autor2.jpg" alt="Paul Renner" class="futura ">
+			</li>
+			<li>
+				<img src="img/lab_400x400.png" alt="logo" class="logo">
+			</li>			
 		</div>
-		
-		<div class="rigth">
-			<h6>Edit</h6>
-			<span class="icon-search"></span>
-			<div class="circle">5</div>
-			<img src="" alt="">
-			<img src="" alt="">logo
-		</div>
-
 	</header>
 	<div class="container text">
-		<div>
-			<img src="http://tutoria.minedu.gob.pe/images/img-ilustra.png" alt="" width="60" height="40">
-			<h5 style="float:left; ">Nombre Apellido</h5>
-			<p>Lorem ipsum blanditiis suscipit odit ad accusamus eius eum fugiat soluta asperiores at odio ipsum maxime.</p>
-		</div>
-		<div class="content">
-			<article class="article">
-			<h1>Hazlo con estilo : Tipografías, iconos y sprite</h1>
-			<p>Te imaginas el mundo sin tipos de letra, tamaños, colores, o sin iconos , nada, nada sería iguaaaaaal!!!! Pero gracias a muchos desarrolladores y diseñadores, hoy contamos con una inimaginable gama de fuentes para nuestro desarrollos web, pero la pregunta que nos hacemos es, ¿existen reglas, hay una mejor forma de hacerlo, no sé que tipografía usar? Tengo muchas preguntas y pocas respuestas!!</p>
-				
-			</article>
+		<div class="autor">
+			<div class="photo">
+				<img src="img/autor2.jpg" alt="Paul Renner" class="futura indicador" >
+			</div>
+			
+			<div class="descripcion">
+				<span><strong>Paul Renner</strong></span>
+				<div class="defini">
+				Creador de la tipografía <strong>'Futura'</strong>, se convierte en el tipo que mejor expresa la esencia de los postulados del movimiento constructivista. Utilizan la asimetría de la puesta en página.
+				</div>
+			</div>
 		</div>
 		
+		<article class="article">
+			<h1 class="title">
+				<strong>Hazlo con estilo : Tipografías, iconos y sprite</strong>
+			</h1>
+			<p>Te imaginas el mundo sin tipos de letra, tamaños, colores, o sin iconos , nada, nada sería iguaaaaaal!!!! Pero gracias a muchos desarrolladores y diseñadores, hoy contamos con una inimaginable gama de fuentes para nuestro desarrollos web, pero la pregunta que nos hacemos es, ¿existen reglas, hay una mejor forma de hacerlo, no sé que tipografía usar? Tengo muchas preguntas y pocas respuestas!!</p>
+			<p>Vamos paso a paso…</p>
+			<h3>@font-face: Como utilizar cualquier fuente/tipografía en tu web</h3>
+			<p>La regla CSS @font-face permite definir una tipografía e importarla para su uso en una página web. Antes de su existencia se podía definir una lista de familias en orden decreciente de prioridad con la regla font-family y se utilizaría la primera que el usuario tuviera instalada en su sistema, con font-face la fuente elegida se puede descargar y utilizar sin necesidad que el usuario disponga de ella con anteriordad.</p>
+		</article>		
 	</div>
 	<footer>
-		<span class="icon-bubble2"></span>
-		<span class="icon-heart"> </span>
-		<span class="icon-twitter"></span>
-		<span class="icon-facebook"></span>
-		<span class="icon-file-empty"></span>
-		<h5>|</h5>
-		<div>
-			<p>Next story</p>
-			<p>Describiendo el flujo de trabajo en...</p>
+		<div class="footer-left">
+			<span class="icon-like1 icon"></span>
+			<span class="icon-Speech-Bubble icon"> </span>
 		</div>
-
-
+		<div class="footer-rigth">
+			<span class="icon-twitter icon"></span>
+			<span class="icon-facebook icon"></span>
+			<span class="icon-gift icon"></span>
+			<span style="font-size: 35px;">|</span>
+			<div class="next">
+				<span>Next story</span>
+				<h4 class="last">Describiendo el flujo de trabajo en...</h4>
+			</div>
+		</div>
 	</footer>
 	
 </body>
